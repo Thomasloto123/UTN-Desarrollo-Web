@@ -1,0 +1,88 @@
+body{
+    background-color: aqua;
+
+}
+.contenedor{
+    background-color: brown;
+    max-width: 960px;
+    margin: auto;
+
+}
+header{
+    text-align: start;
+    font-size: larger;
+    padding: 20px;
+}
+.holder{
+    display: flex;
+}
+nav{
+    background-color:rgb(255, 0, 179);
+    width: 30%;
+}
+nav ul li {
+          list-style: none;
+          padding: 10px;
+}
+nav ul li a {
+         color: white;
+         text-decoration: none;
+         font-size: 20px;
+}
+main{
+    width: 40%;
+    background-color: yellow
+}
+aside{
+    background-color: green;
+    width: 30%;
+}
+footer{
+    background-color: cornsilk;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+     header{
+        text-align: center;
+        font-size: medium;
+        background-color:green ;
+     }
+     nav ul li a {
+        color:  aqua;
+        text-decoration: double;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+     }
+     footer{
+        background-color: aqua;
+        text-align: end;
+     }
+      .holder{
+        flex-wrap: wrap;
+      }
+      nav{
+        width: 100%;
+        border-bottom: 2px solid black;
+      }
+      nav ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      main{
+        border-bottom: 2px solid black;
+        width: 100%;
+        padding: 10px
+      }
+      aside{
+        background-color: aliceblue;
+        width: 100%;
+        border-bottom: 2px solid black;
+      }
+
+    }
