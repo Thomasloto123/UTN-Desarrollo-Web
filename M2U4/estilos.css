@@ -1,0 +1,22 @@
+.contenedor{
+     background-color: peachpuff;
+     padding: 2px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color: yellow;
+}
+table{
+     background-color: green;
+     padding: 5px;
+}
+th{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
